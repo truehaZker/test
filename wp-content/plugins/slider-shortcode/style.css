@@ -1,0 +1,21 @@
+.carousel_slider_outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prev, .next {
+  height: 40px;
+}
+.carousel_slider_inner {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  overflow: hidden;
+  margin-right: auto;
+}
+.carousel_item {
+  display: none;
+}
+.active {
+  display: block;
+}

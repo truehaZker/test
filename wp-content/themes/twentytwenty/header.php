@@ -36,6 +36,9 @@
 				background: <?php echo $background; ?> !important;
 				color: <?php echo $body; ?> !important;
 			}
+      .header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle {
+        color: <?php echo $body; ?> !important;
+      }
 			.color-accent, .color-accent-hover:hover, .color-accent-hover:focus, :root .has-accent-color, .has-drop-cap:not(:focus):first-letter, .wp-block-button.is-style-outline, a:not(.ab-item) {
 				color: <?php echo $accent; ?> !important;
 			}
@@ -45,6 +48,9 @@
 			button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type="button"], input[type="reset"], input[type="submit"], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link {
 				background-color: <?php echo $accent; ?> !important;
 			}
+      .footer-nav-widgets-wrapper, #site-footer, #site-header {
+        background-color: <?php echo $header_footer_background; ?> !important;
+      }
 		</style>
 
 		<?php wp_head(); ?>
